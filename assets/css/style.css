@@ -1,0 +1,29 @@
+/* Resets */
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.menu {
+  background-color: #0168B4;
+  height: 87px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menuList {
+  justify-content: space-between  ;
+  list-style-type: none;
+}
+
+.menuItem {
+  display: flex;
+  color: #fff;
+}
+
