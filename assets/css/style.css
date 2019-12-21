@@ -8,26 +8,34 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 /* Header */
-.menu {
+.navbar {
   background-color: #0168B4;
   height: 87px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
 }
 
-.menuList {
-  justify-content: space-between  ;
-  list-style-type: none;
+.navbar-brand {
+  margin: auto;
+  width: 70%;
 }
 
-.menuItem {
-  display: flex;
+.navbar-brand img {
+  margin: auto 10%;
+  height: 50px;
+  width: 170px;
 }
 
-.menuItem a {
-  text-decoration: none;
+.navbar-dark .navbar-nav .nav-link {
   color: #fff;
+  text-align: center;
 }
 
+.nav-link span {
+  display: block;
+  text-align: center;
+}
+
+.nav-item {
+  margin: auto 10px;
+}
