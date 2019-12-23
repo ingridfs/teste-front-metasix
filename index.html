@@ -13,6 +13,8 @@
 </head>
 
 <body>
+  <header>
+    <div class="header">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">
         <img src="./assets/images/logo.png" alt="Logo Prefeitura de Boa Vista, Trabalhar e cuidar das pessoas">
@@ -24,16 +26,64 @@
 
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
+          <li class="nav-item header-nav-item">
             <a class="nav-link" href="#"><i class="fa fa-th"></i><span>Módulos</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item header-nav-item">
             <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i><span>Log Out</span></a>
           </li>
         </ul>
       </div>
     </nav>
+  </div>
   </header>
+  <main>
+    <section class="container menu">
+      <ul class="nav nav-pills">
+        <li class="nav-item btn btn-sm menu-nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item btn btn-sm menu-nav-item">
+          <a class="nav-link faq-active" href="#">FAQ</a>
+        </li>
+        <li class="nav-item btn btn-sm menu-nav-item">
+          <a class="nav-link" href="#">LOCAIS</a>
+        </li>
+        <li class="nav-item btn btn-sm menu-nav-item ">
+          <a class="nav-link" href="#">CATEGORIAS</a>
+        </li>
+    </section>
+    <section class="faq">
+      <div class="container d-flex justify-content-between">
+        <h1 class="faq-titulo ml-0">FAQ - Perguntas Frequentes</h1>
+        <form class="form-inline mr-0 my-2 my-lg-0">
+          <input class="form-control mr-sm-2 faq-input" type="search" placeholder="Busque por termo..." aria-label="Search">
+          <button class="btn btn-primary my-2 my-sm-0 faq-btn-busca" type="submit"><i class="fas fa-search"></i>BUSCAR</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="container perguntas-header">
+        <div class="row">
+          <div class="col-7">
+            <span>Pergunta</span>
+          </div>
+          <div class="col-2">
+            <a href="#"><span><i class="fas fa-plus-circle"></i> Nova Pergunta</span></a>
+          </div>
+            <div class="col borda-lateral">
+              <span>Ordem</span>
+            </div>
+            <div class="col borda-lateral">
+              <span>Editar</span>
+            </div>
+            <div class="col borda-lateral">
+              <span>Excluir</span>
+            </div>
+        </div>
+      </div>
+
+  </main>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
