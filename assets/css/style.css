@@ -1,6 +1,6 @@
 /* Resets */
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
 
 /* HEADER */
 
-.header>.navbar {
+.header {
   background-color: #0168B4;
   height: 87px;
 }
@@ -23,7 +23,6 @@ body {
 }
 
 .navbar-brand img {
-  margin: auto 10%;
   height: 50px;
   width: 170px;
 }
@@ -40,6 +39,10 @@ body {
 
 .header-nav-item {
   margin: auto 10px;
+}
+
+.navbar-collapse {
+  margin-left: 142px;
 }
 
 /* MAIN */
@@ -60,7 +63,6 @@ ul.nav.nav-pills {
 
 .menu .nav-link {
   color:  #707070;
-  width: 105px;
 }
 
 .menu-nav-item {
@@ -78,13 +80,13 @@ ul.nav.nav-pills {
   color: #fff; 
   font-weight: bolder;
   border-radius: 14px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  width: 78px;
 } 
 
 .faq-input {
   border-radius: 14px;
   font-style: italic;
-  width: 200px;
 }
 
 .faq-btn-busca {
@@ -101,14 +103,21 @@ ul.nav.nav-pills {
   padding: 2px;
 }
 
+.faq-btn-busca span {
+  margin-left: 2px;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
 .perguntas-header {
   background-color: #0168B4;
   border-radius: 14px;
   color: #fff;
-  height: 33px;
+  height: 35px;
   line-height: 15px;
   margin: 15px auto;
   padding: 5px;
+  align-items: center;
 }
 
 .perguntas-header a {
@@ -120,7 +129,30 @@ ul.nav.nav-pills {
   margin-left: 10px;
 }
 
+.btn-nova-pergunta {
+  margin-left: 10px;
+
+}
+
 .borda-lateral {
-  height: 20px;
   border-left: 1px solid #fff;
+}
+
+.listar-faq-linha {
+  height: 36px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+  padding: 0;
+  align-items: center;
+}
+
+.listar-faq-item {
+  text-align: center;
+}
+
+.listar-faq-item .fa-edit {
+  color: #0168B4;
+}
+
+.listar-faq-item .fa-trash {
+  color: #DC3545;
 }
