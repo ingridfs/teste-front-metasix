@@ -140,9 +140,10 @@ ul.nav.nav-pills {
 
 .listar-faq-linha {
   height: 36px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
-  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2px;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .listar-faq-item {
@@ -155,4 +156,8 @@ ul.nav.nav-pills {
 
 .listar-faq-item .fa-trash {
   color: #DC3545;
+}
+
+.btn-listagem {
+  border: none;
 }
