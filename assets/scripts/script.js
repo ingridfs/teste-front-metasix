@@ -1,6 +1,6 @@
 const headers = new Headers();
-headers.append("X-Parse-Application-Id", "br.com.metasix.poc");
-const apiConnection = new Request('https://poc.metasix.solutions/parse/classes/FAQ', {headers});
+headers.append(); // chave da API
+const apiConnection = new Request(link, {headers}); //link: link da API
 
 function listQuestion(list) {
     //var arrayList = Array.from(list)
